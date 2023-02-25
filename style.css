@@ -1,0 +1,478 @@
+/* Inicio Style Topo*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container{
+    background: url(imagens/fundo.png) repeat-x top;
+    margin: 0 auto;
+}
+
+#topo {   
+    margin: 0 auto;   
+    width: 750px;    
+    height: 220px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    
+}
+
+#container #logo{
+    float: left;
+    margin-top: 25px;
+}
+
+#container #navegacao{
+
+    float: left;
+    margin-top: 30px;
+}
+
+
+#logo{
+    background: url(imagens/logo.png) no-repeat left bottom;
+    width: 166px;
+    height: 68px;                   
+    text-indent: -3000px;
+}
+/* Final Style Topo*/
+
+/* Inicio Style navegação topo*/
+#navegacao{   
+    margin-top: 60px;
+    background:#b10333;       
+    width: 640px;
+    height: 45px;
+}
+#navegacao li{   
+    background: url(imagens/divisor.png) no-repeat center left;
+    height:8px ; 
+    float: left;
+    padding: 18px;   
+    list-style: none;
+    line-height: 5px;  
+}
+
+#navegacao a{
+    text-decoration: none;
+    color: white;
+}
+
+a:link a:visited{
+    color: #b10333;
+}
+
+a:hover{
+    color: #980333;
+}
+
+#navegacao #reset-color{
+    background: none;
+}
+
+#home #navegacao #primeiro,
+#brasil #navegacao #primeiro,
+#internacional #navegacao #primeiro,
+#economia #navegacao #primeiro,
+#saude #navegacao #primeiro,
+#ciencia #navegacao #primeiro,
+#fotos #navegacao #primeiro
+{
+    background: #de003e;
+    
+}
+
+/* Final Style navegação topo*/
+
+/*Inicio style conteudo*/
+
+/*Layout com Três colunas*/
+#conteudo{   
+    width: 750px;
+    height: 835px;   
+    margin: 0 auto;        
+}
+
+#home #conteudo{
+height: 694px;
+}
+
+#fotos #conteudo{
+
+height: 860px;
+
+}
+
+
+
+#area-central{
+    width: 270px;
+    height: 298px;
+    float: left;    
+    margin-top: 24px;
+    margin-left: 195px;
+    background: url(imagens/fundo-caixa.png); 
+}
+
+#area-lateral-direita{
+    width: 270px;
+    height: 298px;
+    float: left;   
+    margin-top: 24px;
+    margin-left: 15px; 
+    background: url(imagens/fundo-caixa.png);   
+}
+
+#area-lateral-esquerda{
+   width: 180px;
+   height: 355px;
+   float: left;     
+    margin-top: 20px;
+    margin-left: -750px;
+    background: url(imagens/fundo-caixa.png);     
+}
+/* Fim Layout com Três colunas*/
+
+/*Layout com Duas colunas*/
+
+#coluna-central{   
+    width: 555px;  
+    float: left;    
+    margin-top: 20px;
+    margin-left: 195px;
+    background: url(imagens/fundo-caixa.png);
+}
+
+
+#coluna-central #caixa-destaque{   
+    width: 540px;
+    height: 410px;
+    margin-left: 6px;       
+}
+
+#coluna-central h3{
+    width: 542px;
+}
+
+#coluna-central h5{
+    background: #980333;
+    width: 150px;   
+}
+
+
+#coluna-central #caixa-destaque #img img{
+    width: 535px;
+    height: 350px;   
+}
+
+
+
+ 
+#coluna-central #caixa-2{   
+     width: 546px;
+     height: 358px;
+     border-top: 7px solid white;     
+     margin-top: 5px;    
+}
+
+#coluna-central #caixa-2 #conteudo-caixa2 {
+    width: 540px;   
+}
+#coluna-central #caixa-2 h3{
+    width: 540px;  
+}
+
+/* Fim Layout com Duas colunas*/
+
+/*Layout coluna-unica*/
+
+#coluna-unica{
+    width: 750px;
+    float: left;
+    height: 400px;                  
+}
+
+#coluna-unica #coluna-central{
+    width: 748px;
+    height: 456px;
+    float: left;    
+    margin-top: 25px;
+    margin-left: -1px;
+}
+
+#coluna-unica #caixa-2{
+margin-top: 50px;
+width: 750px;
+    
+}
+
+#coluna-unica #caixa-2 #conteudo-caixa2{   
+    width: 738px;
+
+}
+
+
+#coluna-unica #coluna-central #img img{    
+    width: 728px;
+}
+
+#coluna-unica h3{
+    width: 735px;
+}
+
+#coluna-unica #caixa-destaque{   
+    width: 733px;
+    height: 410px;
+}
+
+#coluna-unica #caixa-2{
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+#coluna-unica #caixa-2 h3{
+    width: 738px;
+}
+#coluna-unica #menu-caixa2{   
+    width: 733px;
+}
+
+
+
+/*Style Colunas*/
+
+h3{
+    background: #294c71;
+    color: #fff;
+    width: 169px;
+    line-height: 26px;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+#lateral-esquerda{
+    width: 169px;
+    float: left;        
+    background: #fff;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#lateral-esquerda li{    
+    list-style: none;
+    padding: 10px;    
+    border-bottom: 1px solid rgb(236, 231, 231);
+}
+  
+#lateral-esquerda li:hover{
+    background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;  
+    padding-left: 25px;    
+
+}
+
+#lateral-esquerda a{
+    font-size: 14px;
+    text-decoration: none;   
+    color: black;   
+    
+}
+
+#email{
+    float: left;
+    background: url(imagens/fundo-caixa.png);
+    margin-top: 15px;    
+    width: 180px;
+    height: 136px;
+
+}
+#informacoes{
+    background: #fff;
+    border: 5px solid white;
+    width: 160px;
+    height: 86px;   
+    margin-top: 5px; 
+    margin-left: 5px;      
+}
+
+label{
+    float: left;    
+    margin-left: 4px;
+    margin-top: 5px;  
+}
+
+.caixa-texto{
+    width: 135px;
+    line-height: 25px;
+    float: left;
+    margin-right: 100px;
+    margin-top: 2px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+}
+
+.botao-cadastrar{
+    float: left;
+    width: 80px;
+    height: 30px;
+    margin-top: 1px;
+    border: 1px solid black;
+    background: #b10333;
+    color: white;
+}
+
+#area-lateral-direita h3, #area-central  h3{
+    width: 260px;
+}
+
+#caixa-destaque{
+    border: 1px solid white;
+    width: 258px;    
+    background: #FFF;
+    height: 255px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#area-central h5{
+    background: #b10333;
+    color: #FFF;
+    width: 130px;
+    margin-left: 2px;
+    margin-top: 7px;
+    line-height: 19px;
+}
+
+#area-lateral-direita h5{
+    background: #b10333;
+    width: 210px;
+    margin-left: 2px;
+    margin-top: 6px;
+    line-height: 19px;  
+}
+
+img{
+    border: 2px solid rgb(182, 175, 175);
+    float: left;
+    width: 253px;
+    margin-left: 2px;
+    margin-top: 3px;    
+}
+
+#area-central a, #area-lateral-direita a{
+    color: #980333;
+}
+
+#caixa-2{
+    width: 270px;
+    height: 355px;
+    float: left;
+    background: url(imagens/fundo-caixa.png);    
+    margin-top: 15px;
+    margin-left: -6px;
+}
+
+#caixa-2 h3{
+    width: 258px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#conteudo-caixa2{
+    width: 258px;
+    height: 72px;
+    border-bottom: 1px solid rgb(160, 153, 153);
+    border-top: 1px solid #fff;
+    background: #fff;
+    margin-left: 5px;
+    margin-top: 6px;
+    
+}
+#menu-caixa2 img{
+    border: none;
+    width: 85px;    
+}
+
+#menu-caixa2 h4{
+    color: #4379b3;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-left: 92px;
+
+}
+#menu-caixa2 p{
+    font-size: 12px;    
+    color: black;   
+    margin-left: 92px;
+    margin-top: 8px;    
+}
+
+#menu-caixa2 li{
+    list-style: none;
+    height: 65px;
+}
+#menu-caixa2 li:hover{
+    background: rgb(240, 232, 232);
+}
+
+#caixa-3{
+    width: 270px;
+    height: 355px;
+    float: left;
+    background: url(imagens/fundo-caixa.png);   
+    margin-top: 15px;
+}
+
+#conteudo-caixa3{
+    width: 258px;
+    height: 72px;
+    border-bottom: 1px solid rgb(160, 153, 153);
+    border-top: 1px solid #fff;
+    background: #fff;
+    margin-left: 5px;
+    margin-top: 6px;   
+}
+
+#menu-caixa3 img{
+    border: none;
+    width: 85px; 
+}
+
+#menu-caixa3 h4{
+    color: #4379b3;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-left: 92px;
+}
+#menu-caixa3 p{
+    font-size: 12px;    
+    color: black;   
+    margin-left: 92px;
+    margin-top: 8px; 
+}
+
+#menu-caixa3 li{
+    list-style: none;
+    height: 65px;   
+}
+#menu-caixa3 li:hover{
+    background: rgb(240, 232, 232);
+}
+
+
+#container-rodape{   
+    height: 55px;    
+    background: #294c71;
+    color: #fff;
+}
+
+#rodape{   
+    width: 750px;
+    margin: 0 auto;
+    line-height: 55px;
+
+}
